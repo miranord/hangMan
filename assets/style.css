@@ -1,0 +1,21 @@
+/* Asterisk wildcard to over ride default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: brown;
+}
+
+/* First section */
+section {
+    background-color: blueviolet;
+}
+
+/* Footer */
+footer {
+    background-color: coral;
+}
