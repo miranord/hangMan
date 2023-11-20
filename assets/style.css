@@ -13,6 +13,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* General project styles */
+    color: darkgray;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Header */
