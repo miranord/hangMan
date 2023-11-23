@@ -30,6 +30,21 @@ main {
     flex: 1 0 auto;
 }
 
+/* Game Box */
+.general-box {
+    display: flex;
+    width: 900px;
+    background-color: white;
+    justify-content: space-around;
+    padding: 40px;
+    box-shadow: 0 2px 2px black;
+}
+
+/* Game image */
+.hangman-box img {
+    max-width: 300px;
+}
+
 /* Footer */
 footer {
     background-color: coral;
