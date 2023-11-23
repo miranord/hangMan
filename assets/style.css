@@ -28,6 +28,9 @@ header {
 main {
     background-color: blueviolet;
     flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Game Box */
@@ -37,12 +40,30 @@ main {
     background-color: white;
     justify-content: space-around;
     padding: 40px;
-    box-shadow: 0 2px 2px black;
+    box-shadow: 0 2px 2 rgba(0, 0, 0, 0.5);
+    position: absolute;
+    text-align: center;
 }
 
 /* Game image */
 .hangman-box img {
     max-width: 300px;
+}
+
+/* Keybord */
+
+
+
+/* Keybord Buttons */
+.button {
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color: white;
+    width: 30px;
+    padding: 5px;
+    margin: 2px;
+    display: inline-block;
+    justify-content: space-evenly;
 }
 
 /* Footer */
